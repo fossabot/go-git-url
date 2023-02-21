@@ -1,4 +1,6 @@
 # GIT Parser
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkubescape%2Fgo-git-url.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkubescape%2Fgo-git-url?ref=badge_shield)
+
 
 The `git-parser` is a package meant for parsing git urls
 
@@ -91,3 +93,7 @@ extensions := []string{"yaml", "json"}
 files, err := gitURL.DownloadFilesWithExtension(extensions)
 
 ```	 
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkubescape%2Fgo-git-url.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkubescape%2Fgo-git-url?ref=badge_large)
